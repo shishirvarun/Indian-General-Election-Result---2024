@@ -1,8 +1,9 @@
 # Indian-General-Election-Result---2024
 # Election Results Analysis
 
-![Gen_Elec2](https://github.com/user-attachments/assets/12b75b0b-ca33-4c64-9971-b634e49afd23)
 ![Gen_Election](https://github.com/user-attachments/assets/adf7db51-b844-433a-bb56-9511b7fb9943)
+![Gen_Elec2](https://github.com/user-attachments/assets/12b75b0b-ca33-4c64-9971-b634e49afd23)
+
 
 This repository contains a Power BI project that analyzes election results to uncover key insights on voter behavior, party performance, and constituency-level trends. The project demonstrates advanced data visualization and analytical capabilities using Power BI and DAX (Data Analysis Expressions).
 
