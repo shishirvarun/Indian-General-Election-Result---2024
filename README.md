@@ -20,48 +20,7 @@ The project includes several custom measures created using DAX functions:
 
 - **Party Alliance**: 
   ```DAX
- Party Alliance = 
-IF(
-    PartyWiseResults[Party] = "Bharatiya Janata Party - BJP" ||
-    PartyWiseResults[Party] = "Telugu Desam - TDP" ||
-    PartyWiseResults[Party] = "Janata Dal  (United) - JD(U)" ||
-    PartyWiseResults[Party] = "Shiv Sena - SHS" ||
-    PartyWiseResults[Party] = "AJSU Party - AJSUP" ||
-   PartyWiseResults[Party] = "Apna Dal (Soneylal) - ADAL" ||
-    PartyWiseResults[Party] = "Asom Gana Parishad - AGP" ||
-    PartyWiseResults[Party] = "Hindustani Awam Morcha (Secular) - HAMS" ||
-    PartyWiseResults[Party] = "Janasena Party - JnP" ||
-    PartyWiseResults[Party] = "Janata Dal  (Secular) - JD(S)" ||
-    PartyWiseResults[Party] = "Lok Janshakti Party(Ram Vilas) - LJPRV" ||
-    PartyWiseResults[Party] = "Nationalist Congress Party - NCP" ||
-    PartyWiseResults[Party]= "Rashtriya Lok Dal - RLD" ||
-    PartyWiseResults[Party] = "Sikkim Krantikari Morcha - SKM",
-    "NDA",
-    IF(
-        PartyWiseResults[Party] = "Indian National Congress - INC" ||
-        PartyWiseResults[Party] = "Aam Aadmi Party - AAAP" ||
-        PartyWiseResults[Party] = "All India Trinamool Congress - AITC" ||
-        PartyWiseResults[Party] = "Bharat Adivasi Party - BHRTADVSIP" ||
-        PartyWiseResults[Party]= "Communist Party of India  (Marxist) - CPI(M)" ||
-        PartyWiseResults[Party] = "Communist Party of India  (Marxist-Leninist)  (Liberation) - CPI(ML)(L)" ||
-        PartyWiseResults[Party] = "Communist Party of India - CPI" ||
-        PartyWiseResults[Party] = "Dravida Munnetra Kazhagam - DMK" ||
-        PartyWiseResults[Party] = "Indian Union Muslim League - IUML" ||
-        PartyWiseResults[Party] = "Jammu & Kashmir National Conference - JKN" ||
-        PartyWiseResults[Party] = "Jharkhand Mukti Morcha - JMM" ||
-        PartyWiseResults[Party] = "Kerala Congress - KEC" ||
-        PartyWiseResults[Party] = "Marumalarchi Dravida Munnetra Kazhagam - MDMK" ||
-        PartyWiseResults[Party] = "Nationalist Congress Party Sharadchandra Pawar - NCPSP" ||
-        PartyWiseResults[Party] = "Rashtriya Janata Dal - RJD" ||
-        PartyWiseResults[Party] = "Rashtriya Loktantrik Party - RLTP" ||
-        PartyWiseResults[Party] = "Revolutionary Socialist Party - RSP" ||
-        PartyWiseResults[Party] = "Samajwadi Party - SP" ||
-        PartyWiseResults[Party] = "Shiv Sena (Uddhav Balasaheb Thackrey) - SHSUBT" ||
-        PartyWiseResults[Party] = "Viduthalai Chiruthaigal Katchi - VCK",
-        "I.N.D.I.A.",
-        "OTHER"
-    )
-)
+
   ```
 
 - **Vote Share %**: Calculates the percentage of votes received by a party.
