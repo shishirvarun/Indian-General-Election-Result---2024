@@ -70,8 +70,6 @@ The project includes several custom measures created using DAX functions:
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, please create a pull request or open an issue.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Contact
 For questions or collaborations, feel free to reach out:
