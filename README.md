@@ -76,7 +76,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 For questions or collaborations, feel free to reach out:
 - **Email**: varunshishir.com
-- **LinkedIn**: 
+- **LinkedIn**: www.linkedin.com/in/shishir-varun-744727152
 
 ---
 ### Note
