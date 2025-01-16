@@ -64,7 +64,7 @@ The project includes several custom measures created using DAX functions:
 
   ```
 
-- **Vote Share %**: Calculates the percentage of votes received by a party.
+- **Vote Share %**:
   ```DAX
   DIVIDE([Total Votes], CALCULATE([Total Votes], ALL(ConstituencyWiseResults[Party ID])), 0)
   ```
